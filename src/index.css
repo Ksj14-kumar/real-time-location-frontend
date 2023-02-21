@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root{
+    padding:0;
+    margin:0;
+    height: 100vh;
+}
+.leaflet-container{
+  height: 39rem;
+  border-radius:10px;
+
+}
+
+@media screen (min-width:768px ;) {
+  .leaflet-container{
+    height: 37rem;
+    border-radius:10px;
+  }
+}
+.leaflet-container:focus{
+  outline:none
+}
+
+.leaflet-marker-icon{
+  /* background: */
+  color:red
+}
+.leaflet-popup-content{
+  display:flex;
+  flex:justify-center;
+}
+
+.hot-chocolate-icon {
+  background: red;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px black;
+
+}
