@@ -1,4 +1,5 @@
 export const options= {
-    reconnection: false,
-    path:"/visitor"
+    reconnection: true,
+    path:"/visitor",
+    transports: ['websocket']
 }
