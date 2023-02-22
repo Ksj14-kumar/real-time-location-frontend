@@ -12,7 +12,7 @@ function List({ arrivalVisitors,setInfo}: propType): JSX.Element {
             <div className="user_list cursor-pointer bg-[#fbfbfb] flex items-center justify-between px-3 py-[5px] rounded-md mb-2 w-full divide-x-2">
                 <div className="ip font-serif text-[1.2rem] mobile:text-[.8rem] flex-[2]  pr-2">Address</div>
                 <div className=" flex-[3] flage  flex-shrink-0  flex justify-center items-center font-serif tracking-wider text-[1.2rem] mobile:text-[.8rem] px-3">
-                    Flage
+                    Flag
                 </div>
                 <div className="country flex-[3] text-[1.2rem] mobile:text-[.8rem] font-serif truncate px-1 pr-2">Region</div>
                 <div className="city text-[1.2rem] flex-[2] mobile:text-[.8rem] font-serif truncate px-1">City</div>
